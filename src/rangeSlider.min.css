@@ -1,0 +1,1 @@
+.rangeSlider{display:none}.rangeSlider ul{list-style:none;position:relative;margin:0;padding:0;overflow:hidden;width:100%;height:300px}.rangeSlider ul li{position:absolute;left:0;width:100%;top:50%;transform:translateY(-50%);-webkit-transform:translateY(-50%);opacity:0}.rangeSlider ul li img{width:100%}.rangeSlider input{width:80%;display:block;margin:0 auto}
