@@ -1,5 +1,5 @@
 # rangeSlider
-A very simple slider with range input controls.
+A very simple jQuery plugin for sliders with range input controls.
 
 ##Installation
 
@@ -38,6 +38,9 @@ $(document).ready(function(){
 ```
 Currently the only option available is the default starting slide.
 It must be an integer, and the default value is 0.
+
+###Example
+jsfiddle: http://jsfiddle.net/fiffty/15eckq50/
 
 ###License
 Released under the MIT license - http://opensource.org/licenses/MIT
