@@ -31,7 +31,8 @@
       input.val(current);
       input.attr('min', 0);
       input.attr('max', length-1);
-      li.eq(current).css({opacity: 1});
+      li.css({'z-index': 0});
+      li.eq(current).css({'z-index': 1});
 
       // Set up input listner
       input.on('change mousemove', function() {
@@ -59,8 +60,8 @@
       target = li.eq(index);
 
       if (!li.queue('fx').length) {
-        li.css({opacity: 0});
-        li.eq(index).css({opacity: 1});
+        li.css({'z-index': 0});
+        li.eq(index).css({'z-index': 1});
       };
     };
 

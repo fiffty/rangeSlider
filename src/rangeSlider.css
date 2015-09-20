@@ -16,7 +16,6 @@
   top:50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
-  opacity: 0;
 }
 .rangeSlider ul li img {
   width:100%;
