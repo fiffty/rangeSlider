@@ -1,15 +1,18 @@
 .rangeSlider {
   display: none;
+  width:100%;
 }
 .rangeSlider ul {
-  list-style: none;
   position: relative;
-  margin: 0; padding: 0;
+  display: block;
+  margin: 0 auto; padding: 0;
   overflow: hidden;
   width: 100%;
   height: 300px;
 }
 .rangeSlider ul li {
+  list-style: none;
+  margin: 0; padding: 0;
   position: absolute;
   left:0;
   width:100%;

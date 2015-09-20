@@ -4,7 +4,8 @@
 
     //  Set default options
     self.options = {
-      start: 0
+      start: 0,
+      fluid: false
     };
 
     self.init = function(elem, options) {
@@ -27,7 +28,11 @@
         length = li.length;
 
       // Set up initial HTML and CSS state
-      elem.css({display: 'block', width: ul.outerWidth()});
+      if (options.fluid) {
+        elem.css({display: 'block'});
+      } else {
+        elem.css({display: 'block', width: ul.outerWidth()});
+      };   
       input.val(current);
       input.attr('min', 0);
       input.attr('max', length-1);

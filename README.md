@@ -36,8 +36,12 @@ $(document).ready(function(){
   $('.rangeSlider').rangeSlider(options);
 });
 ```
-Currently the only option available is the default starting slide.
-It must be an integer, and the default value is 0.
+####Options
+```javascript
+{ start: int, fluid: bool}
+```
+'start' is used for the starting slide index. Default value is 0.
+Set 'fluid' to true if `<ul>`'s width will be a percentage value. Default value is false.
 
 ###Example
 jsfiddle: http://jsfiddle.net/fiffty/15eckq50/
